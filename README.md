@@ -159,6 +159,7 @@ This writes the charts under `assets/` using summary statistics only (no raw dat
 
 **Group 5 — Big Data Analytics & MLOps**
 
+- Vineesha Avasarala  
 - Satish  
 - Debadri Sanyal  
 - Sara Tariq  
