@@ -1,0 +1,85 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# Data (do not commit large CSVs/Parquet)
+*.csv
+*.parquet
+*.delta
+data/raw/
+data/processed/
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# MLflow
+mlruns/
+mlartifacts/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env.local
+*.pem
+secrets.yaml
+
+# Model artifacts (optional: track small ones)
+*.pkl
+*.joblib
+*.h5
+*.pth
+models/
+!models/.gitkeep
+
+# Logs
+*.log
+logs/
+
+# Temporary
+tmp/
+temp/
+/tmp/
+
+# Word/PowerPoint (keep originals in repo or exclude per preference)
+# Uncomment if you don't want to track docx/pptx:
+# *.docx
+# *.pptx

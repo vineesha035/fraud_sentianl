@@ -1,0 +1,26 @@
+# Paths and experiment config (adapt for local vs Databricks)
+# On Databricks: use Unity Catalog Volume paths
+# Local: use data/ and outputs/
+
+experiment:
+  name: fraud_detection_project
+
+paths:
+  # Databricks Unity Catalog (when running on Databricks)
+  raw: /Volumes/workspace/default/fraud_detection/raw
+  processed: /Volumes/workspace/default/fraud_detection/processed
+  models: /Volumes/workspace/default/fraud_detection/models
+  mlops: /Volumes/workspace/default/fraud_detection/mlops
+  mlruns: /Volumes/workspace/default/fraud_detection/mlruns
+
+  # Local fallback
+  local_raw: data/raw
+  local_processed: data/processed
+  local_models: models
+  local_assets: assets
+
+dataset:
+  train_transaction: train_transaction.csv
+  train_identity: train_identity.csv
+  test_transaction: test_transaction.csv
+  test_identity: test_identity.csv
